@@ -69,7 +69,7 @@ class SemanticFormsSelectInput extends PFFormInput {
 	 * @param    string[] $other_args Array of other field parameters
 	 * @return string
 	 */
-	public function getHTML( $cur_value = "", $input_name = "", $is_mandatory, $is_disabled, Array $other_args ) {
+	public function getHTML( $cur_value, $input_name, $is_mandatory, $is_disabled, Array $other_args ) {
 		global $wgPageFormsFieldNum, $wgUser;
 
 		// shortcut to the SelectField object
